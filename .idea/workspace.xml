@@ -1,8 +1,397 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="8cd49719-3ca9-4954-8f08-b4c19313483f" name="Default" comment="">
-      <change type="DELETED" beforePath="C:\Users\darulebreaker\WebstormProjects\mydropbox\views\testJqPlot.html" afterPath="" />
+    <list default="true" id="8cd49719-3ca9-4954-8f08-b4c19313483f" name="Default" comment="condensing chart options">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/css/dashboard.css" />
+      <change type="DELETED" beforePath="C:\Users\darulebreaker\WebstormProjects\mydropbox\public\jqplot\MIT-LICENSE.txt" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\darulebreaker\WebstormProjects\mydropbox\public\jqplot\README.txt" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\darulebreaker\WebstormProjects\mydropbox\public\jqplot\changes.txt" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\darulebreaker\WebstormProjects\mydropbox\public\jqplot\copyright.txt" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\darulebreaker\WebstormProjects\mydropbox\public\jqplot\docs\files\MIT-LICENSE-txt.html" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\darulebreaker\WebstormProjects\mydropbox\public\jqplot\docs\files\changes-txt.html" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\darulebreaker\WebstormProjects\mydropbox\public\jqplot\docs\files\gpl-2-0-txt.html" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\darulebreaker\WebstormProjects\mydropbox\public\jqplot\docs\files\images\background.jpg" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\darulebreaker\WebstormProjects\mydropbox\public\jqplot\docs\files\images\basicline.png" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\darulebreaker\WebstormProjects\mydropbox\public\jqplot\docs\files\images\basiclogaxis.png" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\darulebreaker\WebstormProjects\mydropbox\public\jqplot\docs\files\images\basiclogoptions.png" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\darulebreaker\WebstormProjects\mydropbox\public\jqplot\docs\files\images\basicoptions.png" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\darulebreaker\WebstormProjects\mydropbox\public\jqplot\docs\files\images\dualaxis.png" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\darulebreaker\WebstormProjects\mydropbox\public\jqplot\docs\files\images\logo.jpg" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\darulebreaker\WebstormProjects\mydropbox\public\jqplot\docs\files\images\navdocs.png" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\darulebreaker\WebstormProjects\mydropbox\public\jqplot\docs\files\images\navdocsover.png" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\darulebreaker\WebstormProjects\mydropbox\public\jqplot\docs\files\images\navdownload.png" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\darulebreaker\WebstormProjects\mydropbox\public\jqplot\docs\files\images\navdownloadover.png" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\darulebreaker\WebstormProjects\mydropbox\public\jqplot\docs\files\images\navexamples.png" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\darulebreaker\WebstormProjects\mydropbox\public\jqplot\docs\files\images\navexamplesover.png" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\darulebreaker\WebstormProjects\mydropbox\public\jqplot\docs\files\images\navhome.png" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\darulebreaker\WebstormProjects\mydropbox\public\jqplot\docs\files\images\navhomeover.png" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\darulebreaker\WebstormProjects\mydropbox\public\jqplot\docs\files\images\new.png" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\darulebreaker\WebstormProjects\mydropbox\public\jqplot\docs\files\images\sample3.png" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\darulebreaker\WebstormProjects\mydropbox\public\jqplot\docs\files\images\samplesm.png" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\darulebreaker\WebstormProjects\mydropbox\public\jqplot\docs\files\jqPlotCssStyling-txt.html" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\darulebreaker\WebstormProjects\mydropbox\public\jqplot\docs\files\jqPlotOptions-txt.html" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\darulebreaker\WebstormProjects\mydropbox\public\jqplot\docs\files\jqplot-axisLabelRenderer-js.html" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\darulebreaker\WebstormProjects\mydropbox\public\jqplot\docs\files\jqplot-axisTickRenderer-js.html" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\darulebreaker\WebstormProjects\mydropbox\public\jqplot\docs\files\jqplot-canvasGridRenderer-js.html" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\darulebreaker\WebstormProjects\mydropbox\public\jqplot\docs\files\jqplot-core-js.html" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\darulebreaker\WebstormProjects\mydropbox\public\jqplot\docs\files\jqplot-divTitleRenderer-js.html" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\darulebreaker\WebstormProjects\mydropbox\public\jqplot\docs\files\jqplot-lineRenderer-js.html" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\darulebreaker\WebstormProjects\mydropbox\public\jqplot\docs\files\jqplot-linearAxisRenderer-js.html" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\darulebreaker\WebstormProjects\mydropbox\public\jqplot\docs\files\jqplot-markerRenderer-js.html" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\darulebreaker\WebstormProjects\mydropbox\public\jqplot\docs\files\jqplot-shadowRenderer-js.html" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\darulebreaker\WebstormProjects\mydropbox\public\jqplot\docs\files\jqplot-shapeRenderer-js.html" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\darulebreaker\WebstormProjects\mydropbox\public\jqplot\docs\files\jqplot-themeEngine-js.html" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\darulebreaker\WebstormProjects\mydropbox\public\jqplot\docs\files\jqplot-toImage-js.html" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\darulebreaker\WebstormProjects\mydropbox\public\jqplot\docs\files\optionsTutorial-txt.html" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\darulebreaker\WebstormProjects\mydropbox\public\jqplot\docs\files\plugins\jqplot-BezierCurveRenderer-js.html" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\darulebreaker\WebstormProjects\mydropbox\public\jqplot\docs\files\plugins\jqplot-barRenderer-js.html" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\darulebreaker\WebstormProjects\mydropbox\public\jqplot\docs\files\plugins\jqplot-blockRenderer-js.html" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\darulebreaker\WebstormProjects\mydropbox\public\jqplot\docs\files\plugins\jqplot-bubbleRenderer-js.html" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\darulebreaker\WebstormProjects\mydropbox\public\jqplot\docs\files\plugins\jqplot-canvasAxisLabelRenderer-js.html" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\darulebreaker\WebstormProjects\mydropbox\public\jqplot\docs\files\plugins\jqplot-canvasAxisTickRenderer-js.html" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\darulebreaker\WebstormProjects\mydropbox\public\jqplot\docs\files\plugins\jqplot-canvasOverlay-js.html" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\darulebreaker\WebstormProjects\mydropbox\public\jqplot\docs\files\plugins\jqplot-categoryAxisRenderer-js.html" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\darulebreaker\WebstormProjects\mydropbox\public\jqplot\docs\files\plugins\jqplot-ciParser-js.html" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\darulebreaker\WebstormProjects\mydropbox\public\jqplot\docs\files\plugins\jqplot-cursor-js.html" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\darulebreaker\WebstormProjects\mydropbox\public\jqplot\docs\files\plugins\jqplot-dateAxisRenderer-js.html" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\darulebreaker\WebstormProjects\mydropbox\public\jqplot\docs\files\plugins\jqplot-donutRenderer-js.html" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\darulebreaker\WebstormProjects\mydropbox\public\jqplot\docs\files\plugins\jqplot-dragable-js.html" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\darulebreaker\WebstormProjects\mydropbox\public\jqplot\docs\files\plugins\jqplot-enhancedLegendRenderer-js.html" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\darulebreaker\WebstormProjects\mydropbox\public\jqplot\docs\files\plugins\jqplot-funnelRenderer-js.html" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\darulebreaker\WebstormProjects\mydropbox\public\jqplot\docs\files\plugins\jqplot-highlighter-js.html" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\darulebreaker\WebstormProjects\mydropbox\public\jqplot\docs\files\plugins\jqplot-logAxisRenderer-js.html" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\darulebreaker\WebstormProjects\mydropbox\public\jqplot\docs\files\plugins\jqplot-mekkoAxisRenderer-js.html" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\darulebreaker\WebstormProjects\mydropbox\public\jqplot\docs\files\plugins\jqplot-mekkoRenderer-js.html" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\darulebreaker\WebstormProjects\mydropbox\public\jqplot\docs\files\plugins\jqplot-meterGaugeRenderer-js.html" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\darulebreaker\WebstormProjects\mydropbox\public\jqplot\docs\files\plugins\jqplot-ohlcRenderer-js.html" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\darulebreaker\WebstormProjects\mydropbox\public\jqplot\docs\files\plugins\jqplot-pieRenderer-js.html" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\darulebreaker\WebstormProjects\mydropbox\public\jqplot\docs\files\plugins\jqplot-pointLabels-js.html" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\darulebreaker\WebstormProjects\mydropbox\public\jqplot\docs\files\plugins\jqplot-pyramidAxisRenderer-js.html" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\darulebreaker\WebstormProjects\mydropbox\public\jqplot\docs\files\plugins\jqplot-pyramidGridRenderer-js.html" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\darulebreaker\WebstormProjects\mydropbox\public\jqplot\docs\files\plugins\jqplot-pyramidRenderer-js.html" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\darulebreaker\WebstormProjects\mydropbox\public\jqplot\docs\files\plugins\jqplot-trendline-js.html" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\darulebreaker\WebstormProjects\mydropbox\public\jqplot\docs\files\usage-txt.html" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\darulebreaker\WebstormProjects\mydropbox\public\jqplot\docs\index.html" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\darulebreaker\WebstormProjects\mydropbox\public\jqplot\docs\index\Classes.html" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\darulebreaker\WebstormProjects\mydropbox\public\jqplot\docs\index\Files.html" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\darulebreaker\WebstormProjects\mydropbox\public\jqplot\docs\index\Functions.html" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\darulebreaker\WebstormProjects\mydropbox\public\jqplot\docs\index\General.html" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\darulebreaker\WebstormProjects\mydropbox\public\jqplot\docs\index\General2.html" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\darulebreaker\WebstormProjects\mydropbox\public\jqplot\docs\index\General3.html" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\darulebreaker\WebstormProjects\mydropbox\public\jqplot\docs\index\General4.html" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\darulebreaker\WebstormProjects\mydropbox\public\jqplot\docs\index\General5.html" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\darulebreaker\WebstormProjects\mydropbox\public\jqplot\docs\index\General6.html" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\darulebreaker\WebstormProjects\mydropbox\public\jqplot\docs\index\General7.html" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\darulebreaker\WebstormProjects\mydropbox\public\jqplot\docs\index\Hooks.html" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\darulebreaker\WebstormProjects\mydropbox\public\jqplot\docs\index\Properties.html" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\darulebreaker\WebstormProjects\mydropbox\public\jqplot\docs\index\Properties2.html" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\darulebreaker\WebstormProjects\mydropbox\public\jqplot\docs\index\Properties3.html" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\darulebreaker\WebstormProjects\mydropbox\public\jqplot\docs\index\Properties4.html" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\darulebreaker\WebstormProjects\mydropbox\public\jqplot\docs\index\Properties5.html" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\darulebreaker\WebstormProjects\mydropbox\public\jqplot\docs\index\Properties6.html" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\darulebreaker\WebstormProjects\mydropbox\public\jqplot\docs\javascript\main.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\darulebreaker\WebstormProjects\mydropbox\public\jqplot\docs\javascript\searchdata.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\darulebreaker\WebstormProjects\mydropbox\public\jqplot\docs\search\ClassesA.html" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\darulebreaker\WebstormProjects\mydropbox\public\jqplot\docs\search\ClassesD.html" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\darulebreaker\WebstormProjects\mydropbox\public\jqplot\docs\search\ClassesG.html" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\darulebreaker\WebstormProjects\mydropbox\public\jqplot\docs\search\ClassesH.html" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\darulebreaker\WebstormProjects\mydropbox\public\jqplot\docs\search\ClassesJ.html" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\darulebreaker\WebstormProjects\mydropbox\public\jqplot\docs\search\ClassesL.html" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\darulebreaker\WebstormProjects\mydropbox\public\jqplot\docs\search\ClassesS.html" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\darulebreaker\WebstormProjects\mydropbox\public\jqplot\docs\search\ClassesSymbols.html" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\darulebreaker\WebstormProjects\mydropbox\public\jqplot\docs\search\ClassesT.html" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\darulebreaker\WebstormProjects\mydropbox\public\jqplot\docs\search\ClassesV.html" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\darulebreaker\WebstormProjects\mydropbox\public\jqplot\docs\search\FilesJ.html" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\darulebreaker\WebstormProjects\mydropbox\public\jqplot\docs\search\FunctionsC.html" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\darulebreaker\WebstormProjects\mydropbox\public\jqplot\docs\search\FunctionsD.html" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\darulebreaker\WebstormProjects\mydropbox\public\jqplot\docs\search\FunctionsG.html" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\darulebreaker\WebstormProjects\mydropbox\public\jqplot\docs\search\FunctionsI.html" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\darulebreaker\WebstormProjects\mydropbox\public\jqplot\docs\search\FunctionsM.html" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\darulebreaker\WebstormProjects\mydropbox\public\jqplot\docs\search\FunctionsN.html" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\darulebreaker\WebstormProjects\mydropbox\public\jqplot\docs\search\FunctionsQ.html" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\darulebreaker\WebstormProjects\mydropbox\public\jqplot\docs\search\FunctionsR.html" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\darulebreaker\WebstormProjects\mydropbox\public\jqplot\docs\search\FunctionsS.html" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\darulebreaker\WebstormProjects\mydropbox\public\jqplot\docs\search\FunctionsZ.html" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\darulebreaker\WebstormProjects\mydropbox\public\jqplot\docs\search\GeneralA.html" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\darulebreaker\WebstormProjects\mydropbox\public\jqplot\docs\search\GeneralB.html" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\darulebreaker\WebstormProjects\mydropbox\public\jqplot\docs\search\GeneralC.html" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\darulebreaker\WebstormProjects\mydropbox\public\jqplot\docs\search\GeneralD.html" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\darulebreaker\WebstormProjects\mydropbox\public\jqplot\docs\search\GeneralE.html" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\darulebreaker\WebstormProjects\mydropbox\public\jqplot\docs\search\GeneralF.html" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\darulebreaker\WebstormProjects\mydropbox\public\jqplot\docs\search\GeneralG.html" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\darulebreaker\WebstormProjects\mydropbox\public\jqplot\docs\search\GeneralH.html" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\darulebreaker\WebstormProjects\mydropbox\public\jqplot\docs\search\GeneralI.html" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\darulebreaker\WebstormProjects\mydropbox\public\jqplot\docs\search\GeneralJ.html" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\darulebreaker\WebstormProjects\mydropbox\public\jqplot\docs\search\GeneralL.html" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\darulebreaker\WebstormProjects\mydropbox\public\jqplot\docs\search\GeneralM.html" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\darulebreaker\WebstormProjects\mydropbox\public\jqplot\docs\search\GeneralN.html" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\darulebreaker\WebstormProjects\mydropbox\public\jqplot\docs\search\GeneralO.html" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\darulebreaker\WebstormProjects\mydropbox\public\jqplot\docs\search\GeneralP.html" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\darulebreaker\WebstormProjects\mydropbox\public\jqplot\docs\search\GeneralQ.html" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\darulebreaker\WebstormProjects\mydropbox\public\jqplot\docs\search\GeneralR.html" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\darulebreaker\WebstormProjects\mydropbox\public\jqplot\docs\search\GeneralS.html" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\darulebreaker\WebstormProjects\mydropbox\public\jqplot\docs\search\GeneralSymbols.html" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\darulebreaker\WebstormProjects\mydropbox\public\jqplot\docs\search\GeneralT.html" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\darulebreaker\WebstormProjects\mydropbox\public\jqplot\docs\search\GeneralU.html" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\darulebreaker\WebstormProjects\mydropbox\public\jqplot\docs\search\GeneralV.html" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\darulebreaker\WebstormProjects\mydropbox\public\jqplot\docs\search\GeneralW.html" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\darulebreaker\WebstormProjects\mydropbox\public\jqplot\docs\search\GeneralX.html" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\darulebreaker\WebstormProjects\mydropbox\public\jqplot\docs\search\GeneralY.html" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\darulebreaker\WebstormProjects\mydropbox\public\jqplot\docs\search\GeneralZ.html" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\darulebreaker\WebstormProjects\mydropbox\public\jqplot\docs\search\HooksA.html" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\darulebreaker\WebstormProjects\mydropbox\public\jqplot\docs\search\HooksE.html" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\darulebreaker\WebstormProjects\mydropbox\public\jqplot\docs\search\HooksJ.html" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\darulebreaker\WebstormProjects\mydropbox\public\jqplot\docs\search\HooksP.html" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\darulebreaker\WebstormProjects\mydropbox\public\jqplot\docs\search\NoResults.html" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\darulebreaker\WebstormProjects\mydropbox\public\jqplot\docs\search\PropertiesA.html" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\darulebreaker\WebstormProjects\mydropbox\public\jqplot\docs\search\PropertiesB.html" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\darulebreaker\WebstormProjects\mydropbox\public\jqplot\docs\search\PropertiesC.html" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\darulebreaker\WebstormProjects\mydropbox\public\jqplot\docs\search\PropertiesD.html" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\darulebreaker\WebstormProjects\mydropbox\public\jqplot\docs\search\PropertiesE.html" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\darulebreaker\WebstormProjects\mydropbox\public\jqplot\docs\search\PropertiesF.html" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\darulebreaker\WebstormProjects\mydropbox\public\jqplot\docs\search\PropertiesG.html" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\darulebreaker\WebstormProjects\mydropbox\public\jqplot\docs\search\PropertiesH.html" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\darulebreaker\WebstormProjects\mydropbox\public\jqplot\docs\search\PropertiesI.html" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\darulebreaker\WebstormProjects\mydropbox\public\jqplot\docs\search\PropertiesL.html" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\darulebreaker\WebstormProjects\mydropbox\public\jqplot\docs\search\PropertiesM.html" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\darulebreaker\WebstormProjects\mydropbox\public\jqplot\docs\search\PropertiesN.html" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\darulebreaker\WebstormProjects\mydropbox\public\jqplot\docs\search\PropertiesO.html" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\darulebreaker\WebstormProjects\mydropbox\public\jqplot\docs\search\PropertiesP.html" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\darulebreaker\WebstormProjects\mydropbox\public\jqplot\docs\search\PropertiesR.html" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\darulebreaker\WebstormProjects\mydropbox\public\jqplot\docs\search\PropertiesS.html" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\darulebreaker\WebstormProjects\mydropbox\public\jqplot\docs\search\PropertiesT.html" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\darulebreaker\WebstormProjects\mydropbox\public\jqplot\docs\search\PropertiesU.html" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\darulebreaker\WebstormProjects\mydropbox\public\jqplot\docs\search\PropertiesV.html" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\darulebreaker\WebstormProjects\mydropbox\public\jqplot\docs\search\PropertiesW.html" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\darulebreaker\WebstormProjects\mydropbox\public\jqplot\docs\search\PropertiesX.html" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\darulebreaker\WebstormProjects\mydropbox\public\jqplot\docs\search\PropertiesY.html" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\darulebreaker\WebstormProjects\mydropbox\public\jqplot\docs\search\PropertiesZ.html" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\darulebreaker\WebstormProjects\mydropbox\public\jqplot\docs\styles\1.css" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\darulebreaker\WebstormProjects\mydropbox\public\jqplot\docs\styles\2.css" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\darulebreaker\WebstormProjects\mydropbox\public\jqplot\docs\styles\main.css" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\darulebreaker\WebstormProjects\mydropbox\public\jqplot\examples\KCPsample4.csv" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\darulebreaker\WebstormProjects\mydropbox\public\jqplot\examples\ages.json" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\darulebreaker\WebstormProjects\mydropbox\public\jqplot\examples\ajax-loader.gif" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\darulebreaker\WebstormProjects\mydropbox\public\jqplot\examples\area.html" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\darulebreaker\WebstormProjects\mydropbox\public\jqplot\examples\axisLabelTests.html" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\darulebreaker\WebstormProjects\mydropbox\public\jqplot\examples\axisLabelsRotatedText.html" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\darulebreaker\WebstormProjects\mydropbox\public\jqplot\examples\axisScalingForceTickAt.html" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\darulebreaker\WebstormProjects\mydropbox\public\jqplot\examples\bandedLine.html" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\darulebreaker\WebstormProjects\mydropbox\public\jqplot\examples\bar-charts.html" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\darulebreaker\WebstormProjects\mydropbox\public\jqplot\examples\barLineAnimated.html" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\darulebreaker\WebstormProjects\mydropbox\public\jqplot\examples\barTest.html" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\darulebreaker\WebstormProjects\mydropbox\public\jqplot\examples\bezierCurve.html" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\darulebreaker\WebstormProjects\mydropbox\public\jqplot\examples\blockPlot.html" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\darulebreaker\WebstormProjects\mydropbox\public\jqplot\examples\bubble-plots.html" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\darulebreaker\WebstormProjects\mydropbox\public\jqplot\examples\bubbleChart.html" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\darulebreaker\WebstormProjects\mydropbox\public\jqplot\examples\candlestick-charts.html" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\darulebreaker\WebstormProjects\mydropbox\public\jqplot\examples\candlestick.html" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\darulebreaker\WebstormProjects\mydropbox\public\jqplot\examples\canvas-overlay.html" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\darulebreaker\WebstormProjects\mydropbox\public\jqplot\examples\colorpicker\images\bar-alpha.png" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\darulebreaker\WebstormProjects\mydropbox\public\jqplot\examples\colorpicker\images\bar-opacity.png" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\darulebreaker\WebstormProjects\mydropbox\public\jqplot\examples\colorpicker\images\bar-pointer.png" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\darulebreaker\WebstormProjects\mydropbox\public\jqplot\examples\colorpicker\images\bar.png" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\darulebreaker\WebstormProjects\mydropbox\public\jqplot\examples\colorpicker\images\map-opacity.png" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\darulebreaker\WebstormProjects\mydropbox\public\jqplot\examples\colorpicker\images\map-pointer.png" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\darulebreaker\WebstormProjects\mydropbox\public\jqplot\examples\colorpicker\images\map.png" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\darulebreaker\WebstormProjects\mydropbox\public\jqplot\examples\colorpicker\images\preview-opacity.png" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\darulebreaker\WebstormProjects\mydropbox\public\jqplot\examples\colorpicker\images\ui-colorpicker.png" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\darulebreaker\WebstormProjects\mydropbox\public\jqplot\examples\colorpicker\index.html" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\darulebreaker\WebstormProjects\mydropbox\public\jqplot\examples\colorpicker\jquery.colorpicker.css" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\darulebreaker\WebstormProjects\mydropbox\public\jqplot\examples\colorpicker\jquery.colorpicker.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\darulebreaker\WebstormProjects\mydropbox\public\jqplot\examples\cursor-highlighter.html" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\darulebreaker\WebstormProjects\mydropbox\public\jqplot\examples\customHighlighterCursorTrendline.html" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\darulebreaker\WebstormProjects\mydropbox\public\jqplot\examples\dashboardWidget.html" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\darulebreaker\WebstormProjects\mydropbox\public\jqplot\examples\dashedLines.html" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\darulebreaker\WebstormProjects\mydropbox\public\jqplot\examples\data-renderers.html" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\darulebreaker\WebstormProjects\mydropbox\public\jqplot\examples\date-axes.html" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\darulebreaker\WebstormProjects\mydropbox\public\jqplot\examples\dateAxisLogAxisZooming.html" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\darulebreaker\WebstormProjects\mydropbox\public\jqplot\examples\dateAxisRenderer.html" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\darulebreaker\WebstormProjects\mydropbox\public\jqplot\examples\draw-rectangles.html" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\darulebreaker\WebstormProjects\mydropbox\public\jqplot\examples\example.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\darulebreaker\WebstormProjects\mydropbox\public\jqplot\examples\example.min.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\darulebreaker\WebstormProjects\mydropbox\public\jqplot\examples\examples.css" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\darulebreaker\WebstormProjects\mydropbox\public\jqplot\examples\examples.min.css" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\darulebreaker\WebstormProjects\mydropbox\public\jqplot\examples\fillBetweenLines.html" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\darulebreaker\WebstormProjects\mydropbox\public\jqplot\examples\hiddenPlotsInTabs.html" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\darulebreaker\WebstormProjects\mydropbox\public\jqplot\examples\images\bar-alpha.png" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\darulebreaker\WebstormProjects\mydropbox\public\jqplot\examples\images\bar-opacity.png" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\darulebreaker\WebstormProjects\mydropbox\public\jqplot\examples\images\bar-pointer.png" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\darulebreaker\WebstormProjects\mydropbox\public\jqplot\examples\images\bar.png" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\darulebreaker\WebstormProjects\mydropbox\public\jqplot\examples\images\logo.jpg" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\darulebreaker\WebstormProjects\mydropbox\public\jqplot\examples\images\map-opacity.png" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\darulebreaker\WebstormProjects\mydropbox\public\jqplot\examples\images\map-pointer.png" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\darulebreaker\WebstormProjects\mydropbox\public\jqplot\examples\images\map.png" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\darulebreaker\WebstormProjects\mydropbox\public\jqplot\examples\images\preview-opacity.png" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\darulebreaker\WebstormProjects\mydropbox\public\jqplot\examples\images\ui-colorpicker.png" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\darulebreaker\WebstormProjects\mydropbox\public\jqplot\examples\index.html" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\darulebreaker\WebstormProjects\mydropbox\public\jqplot\examples\jquery-ui\css\smoothness\images\ui-bg_flat_0_aaaaaa_40x100.png" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\darulebreaker\WebstormProjects\mydropbox\public\jqplot\examples\jquery-ui\css\smoothness\images\ui-bg_flat_75_ffffff_40x100.png" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\darulebreaker\WebstormProjects\mydropbox\public\jqplot\examples\jquery-ui\css\smoothness\images\ui-bg_glass_55_fbf9ee_1x400.png" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\darulebreaker\WebstormProjects\mydropbox\public\jqplot\examples\jquery-ui\css\smoothness\images\ui-bg_glass_65_ffffff_1x400.png" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\darulebreaker\WebstormProjects\mydropbox\public\jqplot\examples\jquery-ui\css\smoothness\images\ui-bg_glass_75_dadada_1x400.png" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\darulebreaker\WebstormProjects\mydropbox\public\jqplot\examples\jquery-ui\css\smoothness\images\ui-bg_glass_75_e6e6e6_1x400.png" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\darulebreaker\WebstormProjects\mydropbox\public\jqplot\examples\jquery-ui\css\smoothness\images\ui-bg_glass_95_fef1ec_1x400.png" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\darulebreaker\WebstormProjects\mydropbox\public\jqplot\examples\jquery-ui\css\smoothness\images\ui-bg_highlight-soft_75_cccccc_1x100.png" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\darulebreaker\WebstormProjects\mydropbox\public\jqplot\examples\jquery-ui\css\smoothness\images\ui-icons_222222_256x240.png" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\darulebreaker\WebstormProjects\mydropbox\public\jqplot\examples\jquery-ui\css\smoothness\images\ui-icons_2e83ff_256x240.png" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\darulebreaker\WebstormProjects\mydropbox\public\jqplot\examples\jquery-ui\css\smoothness\images\ui-icons_454545_256x240.png" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\darulebreaker\WebstormProjects\mydropbox\public\jqplot\examples\jquery-ui\css\smoothness\images\ui-icons_888888_256x240.png" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\darulebreaker\WebstormProjects\mydropbox\public\jqplot\examples\jquery-ui\css\smoothness\images\ui-icons_cd0a0a_256x240.png" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\darulebreaker\WebstormProjects\mydropbox\public\jqplot\examples\jquery-ui\css\smoothness\jquery-ui.css" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\darulebreaker\WebstormProjects\mydropbox\public\jqplot\examples\jquery-ui\css\smoothness\jquery-ui.min.css" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\darulebreaker\WebstormProjects\mydropbox\public\jqplot\examples\jquery-ui\css\ui-lightness\images\ui-bg_diagonals-thick_18_b81900_40x40.png" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\darulebreaker\WebstormProjects\mydropbox\public\jqplot\examples\jquery-ui\css\ui-lightness\images\ui-bg_diagonals-thick_20_666666_40x40.png" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\darulebreaker\WebstormProjects\mydropbox\public\jqplot\examples\jquery-ui\css\ui-lightness\images\ui-bg_flat_10_000000_40x100.png" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\darulebreaker\WebstormProjects\mydropbox\public\jqplot\examples\jquery-ui\css\ui-lightness\images\ui-bg_glass_100_f6f6f6_1x400.png" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\darulebreaker\WebstormProjects\mydropbox\public\jqplot\examples\jquery-ui\css\ui-lightness\images\ui-bg_glass_100_fdf5ce_1x400.png" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\darulebreaker\WebstormProjects\mydropbox\public\jqplot\examples\jquery-ui\css\ui-lightness\images\ui-bg_glass_65_ffffff_1x400.png" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\darulebreaker\WebstormProjects\mydropbox\public\jqplot\examples\jquery-ui\css\ui-lightness\images\ui-bg_gloss-wave_35_f6a828_500x100.png" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\darulebreaker\WebstormProjects\mydropbox\public\jqplot\examples\jquery-ui\css\ui-lightness\images\ui-bg_highlight-soft_100_eeeeee_1x100.png" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\darulebreaker\WebstormProjects\mydropbox\public\jqplot\examples\jquery-ui\css\ui-lightness\images\ui-bg_highlight-soft_75_ffe45c_1x100.png" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\darulebreaker\WebstormProjects\mydropbox\public\jqplot\examples\jquery-ui\css\ui-lightness\images\ui-icons_228ef1_256x240.png" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\darulebreaker\WebstormProjects\mydropbox\public\jqplot\examples\jquery-ui\css\ui-lightness\images\ui-icons_ef8c08_256x240.png" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\darulebreaker\WebstormProjects\mydropbox\public\jqplot\examples\jquery-ui\css\ui-lightness\images\ui-icons_ffd27a_256x240.png" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\darulebreaker\WebstormProjects\mydropbox\public\jqplot\examples\jquery-ui\css\ui-lightness\images\ui-icons_ffffff_256x240.png" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\darulebreaker\WebstormProjects\mydropbox\public\jqplot\examples\jquery-ui\css\ui-lightness\jquery-ui-1.9pre.css" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\darulebreaker\WebstormProjects\mydropbox\public\jqplot\examples\jquery-ui\css\ui-lightness\jquery-ui-1.9pre.min.css" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\darulebreaker\WebstormProjects\mydropbox\public\jqplot\examples\jquery-ui\css\ui-lightness\jquery-ui.css" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\darulebreaker\WebstormProjects\mydropbox\public\jqplot\examples\jquery-ui\css\ui-lightness\jquery-ui.min.css" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\darulebreaker\WebstormProjects\mydropbox\public\jqplot\examples\jquery-ui\js\jquery-ui.min.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\darulebreaker\WebstormProjects\mydropbox\public\jqplot\examples\jquery-ui\js\jquery.effects.blind.min.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\darulebreaker\WebstormProjects\mydropbox\public\jqplot\examples\jquery-ui\js\jquery.effects.core.min.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\darulebreaker\WebstormProjects\mydropbox\public\jqplot\examples\jsondata.txt" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\darulebreaker\WebstormProjects\mydropbox\public\jqplot\examples\kcp.print.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\darulebreaker\WebstormProjects\mydropbox\public\jqplot\examples\kcp_area.html" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\darulebreaker\WebstormProjects\mydropbox\public\jqplot\examples\kcp_area2.html" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\darulebreaker\WebstormProjects\mydropbox\public\jqplot\examples\kcp_cdf.html" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\darulebreaker\WebstormProjects\mydropbox\public\jqplot\examples\kcp_engel.html" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\darulebreaker\WebstormProjects\mydropbox\public\jqplot\examples\kcp_lorenz.html" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\darulebreaker\WebstormProjects\mydropbox\public\jqplot\examples\kcp_pdf.html" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\darulebreaker\WebstormProjects\mydropbox\public\jqplot\examples\kcp_pyramid.html" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\darulebreaker\WebstormProjects\mydropbox\public\jqplot\examples\kcp_pyramid2.html" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\darulebreaker\WebstormProjects\mydropbox\public\jqplot\examples\kcp_pyramid_by_age.html" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\darulebreaker\WebstormProjects\mydropbox\public\jqplot\examples\kcp_pyramid_by_age.php" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\darulebreaker\WebstormProjects\mydropbox\public\jqplot\examples\kcp_quintiles.html" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\darulebreaker\WebstormProjects\mydropbox\public\jqplot\examples\line-charts.html" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\darulebreaker\WebstormProjects\mydropbox\public\jqplot\examples\mekkoCharts.html" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\darulebreaker\WebstormProjects\mydropbox\public\jqplot\examples\meterGauge.html" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\darulebreaker\WebstormProjects\mydropbox\public\jqplot\examples\multipleBarColors.html" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\darulebreaker\WebstormProjects\mydropbox\public\jqplot\examples\nav.inc" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\darulebreaker\WebstormProjects\mydropbox\public\jqplot\examples\pie-donut-charts.html" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\darulebreaker\WebstormProjects\mydropbox\public\jqplot\examples\pieTest.html" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\darulebreaker\WebstormProjects\mydropbox\public\jqplot\examples\pieTest2.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\darulebreaker\WebstormProjects\mydropbox\public\jqplot\examples\pieTest4.html" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\darulebreaker\WebstormProjects\mydropbox\public\jqplot\examples\point-labels.html" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\darulebreaker\WebstormProjects\mydropbox\public\jqplot\examples\quintiles.json" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\darulebreaker\WebstormProjects\mydropbox\public\jqplot\examples\resizablePlot.html" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\darulebreaker\WebstormProjects\mydropbox\public\jqplot\examples\rotated-tick-labels.html" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\darulebreaker\WebstormProjects\mydropbox\public\jqplot\examples\rotatedTickLabelsZoom.html" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\darulebreaker\WebstormProjects\mydropbox\public\jqplot\examples\selectorSyntax.html" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\darulebreaker\WebstormProjects\mydropbox\public\jqplot\examples\smoothedLine.html" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\darulebreaker\WebstormProjects\mydropbox\public\jqplot\examples\syntaxhighlighter\LGPL-LICENSE" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\darulebreaker\WebstormProjects\mydropbox\public\jqplot\examples\syntaxhighlighter\MIT-LICENSE" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\darulebreaker\WebstormProjects\mydropbox\public\jqplot\examples\syntaxhighlighter\scripts\shAutoloader.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\darulebreaker\WebstormProjects\mydropbox\public\jqplot\examples\syntaxhighlighter\scripts\shAutoloader.min.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\darulebreaker\WebstormProjects\mydropbox\public\jqplot\examples\syntaxhighlighter\scripts\shBrushJScript.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\darulebreaker\WebstormProjects\mydropbox\public\jqplot\examples\syntaxhighlighter\scripts\shBrushJScript.min.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\darulebreaker\WebstormProjects\mydropbox\public\jqplot\examples\syntaxhighlighter\scripts\shBrushXml.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\darulebreaker\WebstormProjects\mydropbox\public\jqplot\examples\syntaxhighlighter\scripts\shBrushXml.min.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\darulebreaker\WebstormProjects\mydropbox\public\jqplot\examples\syntaxhighlighter\scripts\shCore.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\darulebreaker\WebstormProjects\mydropbox\public\jqplot\examples\syntaxhighlighter\scripts\shCore.min.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\darulebreaker\WebstormProjects\mydropbox\public\jqplot\examples\syntaxhighlighter\styles\shCore.css" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\darulebreaker\WebstormProjects\mydropbox\public\jqplot\examples\syntaxhighlighter\styles\shCore.min.css" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\darulebreaker\WebstormProjects\mydropbox\public\jqplot\examples\syntaxhighlighter\styles\shCoreDefault.css" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\darulebreaker\WebstormProjects\mydropbox\public\jqplot\examples\syntaxhighlighter\styles\shCoreDefault.min.css" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\darulebreaker\WebstormProjects\mydropbox\public\jqplot\examples\syntaxhighlighter\styles\shThemeDefault.css" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\darulebreaker\WebstormProjects\mydropbox\public\jqplot\examples\syntaxhighlighter\styles\shThemeDefault.min.css" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\darulebreaker\WebstormProjects\mydropbox\public\jqplot\examples\syntaxhighlighter\styles\shThemejqPlot.css" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\darulebreaker\WebstormProjects\mydropbox\public\jqplot\examples\syntaxhighlighter\styles\shThemejqPlot.min.css" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\darulebreaker\WebstormProjects\mydropbox\public\jqplot\examples\theming.html" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\darulebreaker\WebstormProjects\mydropbox\public\jqplot\examples\topbanner.inc" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\darulebreaker\WebstormProjects\mydropbox\public\jqplot\examples\waterfall.html" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\darulebreaker\WebstormProjects\mydropbox\public\jqplot\examples\waterfall2.html" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\darulebreaker\WebstormProjects\mydropbox\public\jqplot\examples\yahooData.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\darulebreaker\WebstormProjects\mydropbox\public\jqplot\examples\yahooData.min.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\darulebreaker\WebstormProjects\mydropbox\public\jqplot\examples\zoom1.html" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\darulebreaker\WebstormProjects\mydropbox\public\jqplot\examples\zoomOptions.html" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\darulebreaker\WebstormProjects\mydropbox\public\jqplot\examples\zoomProxy.html" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\darulebreaker\WebstormProjects\mydropbox\public\jqplot\examples\zooming.html" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\darulebreaker\WebstormProjects\mydropbox\public\jqplot\excanvas.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\darulebreaker\WebstormProjects\mydropbox\public\jqplot\excanvas.min.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\darulebreaker\WebstormProjects\mydropbox\public\jqplot\gpl-2.0.txt" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\darulebreaker\WebstormProjects\mydropbox\public\jqplot\jqPlotCssStyling.txt" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\darulebreaker\WebstormProjects\mydropbox\public\jqplot\jqPlotOptions.txt" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\darulebreaker\WebstormProjects\mydropbox\public\jqplot\jquery.jqplot.css" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\darulebreaker\WebstormProjects\mydropbox\public\jqplot\jquery.jqplot.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\darulebreaker\WebstormProjects\mydropbox\public\jqplot\jquery.jqplot.min.css" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\darulebreaker\WebstormProjects\mydropbox\public\jqplot\jquery.jqplot.min.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\darulebreaker\WebstormProjects\mydropbox\public\jqplot\jquery.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\darulebreaker\WebstormProjects\mydropbox\public\jqplot\jquery.min.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\darulebreaker\WebstormProjects\mydropbox\public\jqplot\optionsTutorial.txt" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\darulebreaker\WebstormProjects\mydropbox\public\jqplot\plugins\jqplot.BezierCurveRenderer.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\darulebreaker\WebstormProjects\mydropbox\public\jqplot\plugins\jqplot.BezierCurveRenderer.min.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\darulebreaker\WebstormProjects\mydropbox\public\jqplot\plugins\jqplot.barRenderer.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\darulebreaker\WebstormProjects\mydropbox\public\jqplot\plugins\jqplot.barRenderer.min.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\darulebreaker\WebstormProjects\mydropbox\public\jqplot\plugins\jqplot.blockRenderer.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\darulebreaker\WebstormProjects\mydropbox\public\jqplot\plugins\jqplot.blockRenderer.min.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\darulebreaker\WebstormProjects\mydropbox\public\jqplot\plugins\jqplot.bubbleRenderer.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\darulebreaker\WebstormProjects\mydropbox\public\jqplot\plugins\jqplot.bubbleRenderer.min.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\darulebreaker\WebstormProjects\mydropbox\public\jqplot\plugins\jqplot.canvasAxisLabelRenderer.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\darulebreaker\WebstormProjects\mydropbox\public\jqplot\plugins\jqplot.canvasAxisLabelRenderer.min.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\darulebreaker\WebstormProjects\mydropbox\public\jqplot\plugins\jqplot.canvasAxisTickRenderer.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\darulebreaker\WebstormProjects\mydropbox\public\jqplot\plugins\jqplot.canvasAxisTickRenderer.min.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\darulebreaker\WebstormProjects\mydropbox\public\jqplot\plugins\jqplot.canvasOverlay.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\darulebreaker\WebstormProjects\mydropbox\public\jqplot\plugins\jqplot.canvasOverlay.min.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\darulebreaker\WebstormProjects\mydropbox\public\jqplot\plugins\jqplot.canvasTextRenderer.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\darulebreaker\WebstormProjects\mydropbox\public\jqplot\plugins\jqplot.canvasTextRenderer.min.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\darulebreaker\WebstormProjects\mydropbox\public\jqplot\plugins\jqplot.categoryAxisRenderer.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\darulebreaker\WebstormProjects\mydropbox\public\jqplot\plugins\jqplot.categoryAxisRenderer.min.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\darulebreaker\WebstormProjects\mydropbox\public\jqplot\plugins\jqplot.ciParser.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\darulebreaker\WebstormProjects\mydropbox\public\jqplot\plugins\jqplot.ciParser.min.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\darulebreaker\WebstormProjects\mydropbox\public\jqplot\plugins\jqplot.cursor.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\darulebreaker\WebstormProjects\mydropbox\public\jqplot\plugins\jqplot.cursor.min.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\darulebreaker\WebstormProjects\mydropbox\public\jqplot\plugins\jqplot.dateAxisRenderer.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\darulebreaker\WebstormProjects\mydropbox\public\jqplot\plugins\jqplot.dateAxisRenderer.min.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\darulebreaker\WebstormProjects\mydropbox\public\jqplot\plugins\jqplot.donutRenderer.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\darulebreaker\WebstormProjects\mydropbox\public\jqplot\plugins\jqplot.donutRenderer.min.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\darulebreaker\WebstormProjects\mydropbox\public\jqplot\plugins\jqplot.dragable.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\darulebreaker\WebstormProjects\mydropbox\public\jqplot\plugins\jqplot.dragable.min.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\darulebreaker\WebstormProjects\mydropbox\public\jqplot\plugins\jqplot.enhancedLegendRenderer.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\darulebreaker\WebstormProjects\mydropbox\public\jqplot\plugins\jqplot.enhancedLegendRenderer.min.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\darulebreaker\WebstormProjects\mydropbox\public\jqplot\plugins\jqplot.funnelRenderer.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\darulebreaker\WebstormProjects\mydropbox\public\jqplot\plugins\jqplot.funnelRenderer.min.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\darulebreaker\WebstormProjects\mydropbox\public\jqplot\plugins\jqplot.highlighter.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\darulebreaker\WebstormProjects\mydropbox\public\jqplot\plugins\jqplot.highlighter.min.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\darulebreaker\WebstormProjects\mydropbox\public\jqplot\plugins\jqplot.json2.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\darulebreaker\WebstormProjects\mydropbox\public\jqplot\plugins\jqplot.json2.min.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\darulebreaker\WebstormProjects\mydropbox\public\jqplot\plugins\jqplot.logAxisRenderer.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\darulebreaker\WebstormProjects\mydropbox\public\jqplot\plugins\jqplot.logAxisRenderer.min.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\darulebreaker\WebstormProjects\mydropbox\public\jqplot\plugins\jqplot.mekkoAxisRenderer.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\darulebreaker\WebstormProjects\mydropbox\public\jqplot\plugins\jqplot.mekkoAxisRenderer.min.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\darulebreaker\WebstormProjects\mydropbox\public\jqplot\plugins\jqplot.mekkoRenderer.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\darulebreaker\WebstormProjects\mydropbox\public\jqplot\plugins\jqplot.mekkoRenderer.min.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\darulebreaker\WebstormProjects\mydropbox\public\jqplot\plugins\jqplot.meterGaugeRenderer.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\darulebreaker\WebstormProjects\mydropbox\public\jqplot\plugins\jqplot.meterGaugeRenderer.min.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\darulebreaker\WebstormProjects\mydropbox\public\jqplot\plugins\jqplot.mobile.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\darulebreaker\WebstormProjects\mydropbox\public\jqplot\plugins\jqplot.mobile.min.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\darulebreaker\WebstormProjects\mydropbox\public\jqplot\plugins\jqplot.ohlcRenderer.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\darulebreaker\WebstormProjects\mydropbox\public\jqplot\plugins\jqplot.ohlcRenderer.min.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\darulebreaker\WebstormProjects\mydropbox\public\jqplot\plugins\jqplot.pieRenderer.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\darulebreaker\WebstormProjects\mydropbox\public\jqplot\plugins\jqplot.pieRenderer.min.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\darulebreaker\WebstormProjects\mydropbox\public\jqplot\plugins\jqplot.pointLabels.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\darulebreaker\WebstormProjects\mydropbox\public\jqplot\plugins\jqplot.pointLabels.min.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\darulebreaker\WebstormProjects\mydropbox\public\jqplot\plugins\jqplot.pyramidAxisRenderer.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\darulebreaker\WebstormProjects\mydropbox\public\jqplot\plugins\jqplot.pyramidAxisRenderer.min.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\darulebreaker\WebstormProjects\mydropbox\public\jqplot\plugins\jqplot.pyramidGridRenderer.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\darulebreaker\WebstormProjects\mydropbox\public\jqplot\plugins\jqplot.pyramidGridRenderer.min.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\darulebreaker\WebstormProjects\mydropbox\public\jqplot\plugins\jqplot.pyramidRenderer.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\darulebreaker\WebstormProjects\mydropbox\public\jqplot\plugins\jqplot.pyramidRenderer.min.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\darulebreaker\WebstormProjects\mydropbox\public\jqplot\plugins\jqplot.trendline.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\darulebreaker\WebstormProjects\mydropbox\public\jqplot\plugins\jqplot.trendline.min.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\darulebreaker\WebstormProjects\mydropbox\public\jqplot\usage.txt" afterPath="" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/views/index.ejs" afterPath="$PROJECT_DIR$/views/index.ejs" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/views/layout.ejs" afterPath="$PROJECT_DIR$/views/layout.ejs" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="mydropbox.iws" />
@@ -29,25 +418,7 @@
       <file leaf-file-name="app.js" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="150" column="41" selection-start="4369" selection-end="4369" vertical-scroll-proportion="0.0" vertical-offset="2317" max-vertical-offset="2958">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="test.csv" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/tmp/test.csv">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="12" column="2" selection-start="52" selection-end="52" vertical-scroll-proportion="0.0" vertical-offset="204" max-vertical-offset="374">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="tsla.csv" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/tmp/tsla.csv">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="4256" column="4" selection-start="162955" selection-end="163113" vertical-scroll-proportion="0.0" vertical-offset="72119" max-vertical-offset="72522">
+            <state line="93" column="9" selection-start="2424" selection-end="2424" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="2958">
               <folding />
             </state>
           </provider>
@@ -57,15 +428,6 @@
         <entry file="file://$PROJECT_DIR$/tmp/tsla2.csv">
           <provider selected="true" editor-type-id="text-editor">
             <state line="50" column="34" selection-start="1927" selection-end="1927" vertical-scroll-proportion="0.0" vertical-offset="643" max-vertical-offset="1275">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="data.csv" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/tmp/data.csv">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="119">
               <folding />
             </state>
           </provider>
@@ -83,7 +445,38 @@
       <file leaf-file-name="index.ejs" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/views/index.ejs">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="369" column="46" selection-start="12061" selection-end="12061" vertical-scroll-proportion="0.6130435" vertical-offset="5991" max-vertical-offset="6681">
+            <state line="18" column="6" selection-start="422" selection-end="422" vertical-scroll-proportion="0.633218" vertical-offset="123" max-vertical-offset="5746">
+              <folding>
+                <element signature="n#style#0;n#div#0;n#div#1;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#div#1;n#div#1;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#div#6;n#!!top" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="fileCheck.js" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/fileCheck.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="15" column="3" selection-start="408" selection-end="408" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="357">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="accessDropbox.js" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/accessDropbox.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="16" column="0" selection-start="319" selection-end="319" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1479">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="package.json" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/package.json">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="-0.0" vertical-offset="0" max-vertical-offset="306">
               <folding />
             </state>
           </provider>
@@ -92,16 +485,25 @@
       <file leaf-file-name="layout.ejs" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/views/layout.ejs">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="16" column="0" selection-start="647" selection-end="647" vertical-scroll-proportion="-6.6538463" vertical-offset="99" max-vertical-offset="425">
+            <state line="70" column="0" selection-start="2864" selection-end="2864" vertical-scroll-proportion="-6.5384617" vertical-offset="1020" max-vertical-offset="1496">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="tsla_OHLC3.csv" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/tmp/tsla_OHLC3.csv">
+      <file leaf-file-name="dashboard.css" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/public/css/dashboard.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="542" column="56" selection-start="31039" selection-end="31039" vertical-scroll-proportion="0.0" vertical-offset="8636" max-vertical-offset="9367">
+            <state line="95" column="1" selection-start="1483" selection-end="1483" vertical-scroll-proportion="0.0" vertical-offset="1128" max-vertical-offset="1717">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="index.jade" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/views/index.jade">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="-0.0" vertical-offset="0" max-vertical-offset="119">
               <folding />
             </state>
           </provider>
@@ -125,13 +527,11 @@
   <component name="IdeDocumentHistory">
     <option name="changedFiles">
       <list>
-        <option value="$PROJECT_DIR$/views/layout.jade" />
         <option value="$PROJECT_DIR$/accessDropbox.js" />
         <option value="$PROJECT_DIR$/views/testJqPlot.html" />
         <option value="$PROJECT_DIR$/tmp/data.csv" />
         <option value="$PROJECT_DIR$/tmp/tsla_OHLC2.csv" />
         <option value="$PROJECT_DIR$/views/layout_backup3.ejs" />
-        <option value="$PROJECT_DIR$/views/layout.ejs" />
         <option value="$PROJECT_DIR$/package.json" />
         <option value="$PROJECT_DIR$/fileCheck.js" />
         <option value="$PROJECT_DIR$/app_backup2.js" />
@@ -140,6 +540,8 @@
         <option value="$PROJECT_DIR$/tmp/tsla_OHLC3.csv" />
         <option value="$PROJECT_DIR$/app.js" />
         <option value="$PROJECT_DIR$/tmp/tsla2.csv" />
+        <option value="$PROJECT_DIR$/public/css/dashboard.css" />
+        <option value="$PROJECT_DIR$/views/layout.ejs" />
         <option value="$PROJECT_DIR$/views/index.ejs" />
       </list>
     </option>
@@ -222,6 +624,38 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="mydropbox" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="mydropbox" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="public" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="mydropbox" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="mydropbox" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="public" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="css" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
         </subPane>
       </pane>
       <pane id="Scope" />
@@ -244,6 +678,7 @@
       <recent name="C:\Users\darulebreaker\WebstormProjects\mydropbox\tmp" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\darulebreaker\WebstormProjects\mydropbox\public" />
       <recent name="C:\Users\darulebreaker\WebstormProjects\mydropbox\tmp" />
       <recent name="C:\Users\darulebreaker\WebstormProjects\mydropbox\jqplot" />
       <recent name="C:\Users\darulebreaker\WebstormProjects\mydropbox" />
@@ -323,7 +758,15 @@
       <created>1394165474726</created>
       <updated>1394165474726</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="deleting unused jqplot folder&#10;">
+      <created>1394165501495</created>
+      <updated>1394165501495</updated>
+    </task>
+    <task id="LOCAL-00004" summary="condensing chart options">
+      <created>1394166003054</created>
+      <updated>1394166003054</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -335,11 +778,11 @@
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.30923077" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.20644216" sideWeight="0.8261539" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.20644216" sideWeight="0.5953846" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.5953846" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.34" sideWeight="0.59077597" order="7" side_tool="true" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.17384616" sideWeight="0.409224" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.40461537" sideWeight="0.409224" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
@@ -359,7 +802,8 @@
     </option>
     <MESSAGE value="deleting backup files used w/o version control&#10;" />
     <MESSAGE value="deleting unused jqplot folder&#10;" />
-    <option name="LAST_COMMIT_MESSAGE" value="deleting unused jqplot folder&#10;" />
+    <MESSAGE value="condensing chart options" />
+    <option name="LAST_COMMIT_MESSAGE" value="condensing chart options" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -367,11 +811,6 @@
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/fileCheck.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="15" column="3" selection-start="408" selection-end="408" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="357" />
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/node_modules/socket.io/lib/namespace.js">
       <provider selected="true" editor-type-id="text-editor">
         <state line="301" column="13" selection-start="5653" selection-end="5653" vertical-scroll-proportion="0.0" vertical-offset="4982" max-vertical-offset="6052" />
@@ -410,20 +849,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/views/layout.ejs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="16" column="0" selection-start="647" selection-end="647" vertical-scroll-proportion="-6.6538463" vertical-offset="99" max-vertical-offset="425">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="150" column="41" selection-start="4369" selection-end="4369" vertical-scroll-proportion="0.0" vertical-offset="2317" max-vertical-offset="2958">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/tmp/tsla2.csv">
       <provider selected="true" editor-type-id="text-editor">
         <state line="50" column="34" selection-start="1927" selection-end="1927" vertical-scroll-proportion="0.0" vertical-offset="643" max-vertical-offset="1275">
@@ -438,10 +863,63 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/package.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="415">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/accessDropbox.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="16" column="0" selection-start="319" selection-end="319" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1479">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/fileCheck.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="15" column="3" selection-start="408" selection-end="408" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="357">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="93" column="9" selection-start="2424" selection-end="2424" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="2958">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/views/index.jade">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="415">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/css/dashboard.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="95" column="1" selection-start="1483" selection-end="1483" vertical-scroll-proportion="0.0" vertical-offset="1128" max-vertical-offset="1717">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/views/layout.ejs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="70" column="0" selection-start="2864" selection-end="2864" vertical-scroll-proportion="-6.5384617" vertical-offset="1020" max-vertical-offset="1496">
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/views/index.ejs">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="369" column="46" selection-start="12061" selection-end="12061" vertical-scroll-proportion="0.6130435" vertical-offset="5991" max-vertical-offset="6681">
-          <folding />
+        <state line="18" column="6" selection-start="422" selection-end="422" vertical-scroll-proportion="0.633218" vertical-offset="123" max-vertical-offset="5746">
+          <folding>
+            <element signature="n#style#0;n#div#0;n#div#1;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#1;n#div#1;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#6;n#!!top" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>

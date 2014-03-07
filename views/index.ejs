@@ -1,9 +1,20 @@
-<div class="title">
+<div class="table-responsive">
 
 
-</div>
+
 
     <div id="conversation"></div>
+
+</div>
+<div id="dashboard">
+    <div id="chart" style='width: 1500px; height: 500px;'></div>
+    <div id="control" style='width: 1500px; height: 50px;'></div>
+</div>
+<div id="table_div"></div>
+<div id="chart_div2"></div>
+<div id="chart_div3"></div>
+<div id="chart_div4"></div>
+<div id="visualization" style="width: 800px; height: 400px;"></div>
 
 </div>
 
@@ -155,8 +166,6 @@
 
     var extractOHLC= function(array)
     {
-
-
         var data = new Array();
         array.forEach(function(subArray){
             var tmp= new Array();
@@ -235,15 +244,7 @@
 </script>
 
 
-<div id="dashboard">
-    <div id="chart" style='width: 1500px; height: 500px;'></div>
-    <div id="control" style='width: 1500px; height: 50px;'></div>
-</div>
-<div id="table_div"></div>
-<div id="chart_div2"></div>
-<div id="chart_div3"></div>
-<div id="chart_div4"></div>
-<div id="visualization" style="width: 800px; height: 400px;"></div>
+
 
 <script type="text/javascript">
     function drawVisualization() {
