@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <title>Pivotal Search</title>
+    <meta name="description" content="">
+    <meta name="author" content="">
+
+    <!-- HTML5 shim, for IE6-8 support of HTML elements -->
+    <!--[if lt IE 9]>
+    <script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
+
+    <![endif]-->
+
+    <!-- styles -->
+    <link href="stylesheets/style.css" rel="stylesheet">
+    <link class="include" rel="stylesheet" type="text/css" href="../jqplot/jquery.jqplot.min.css" />
+    <link rel="stylesheet" type="text/css" href="../jqplot/examples/examples.min.css" />
+    <link type="text/css" rel="stylesheet" href="../jqplot/examples/syntaxhighlighter/styles/shCoreDefault.min.css" />
+    <link type="text/css" rel="stylesheet" href="../jqplot/examples/syntaxhighlighter/styles/shThemejqPlot.min.css" />
+    <script class="include" type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
+    <script  src="/socket.io/socket.io.js"></script>
+
+</head>
+<body>
+<%- body %>
+<!-- div id="chart1" style="height:300px; width:500px;"></div>
+<script>  $(document).ready(function(){
+    var plot1 = $.jqplot ('chart1', [[3,7,9,1,5,3,8,2,5]]);
+});
+</script-->
+</body>
+<script class="include" type="text/javascript" src="../jqplot/jquery.jqplot.min.js"></script>
+<script type="text/javascript" src="../jqplot/examples/syntaxhighlighter/scripts/shCore.min.js"></script>
+<script type="text/javascript" src="../jqplot/examples/syntaxhighlighter/scripts/shBrushJScript.min.js"></script>
+<script type="text/javascript" src="../jqplot/examples/syntaxhighlighter/scripts/shBrushXml.min.js"></script>
+<!-- End Don't touch this! -->
+
+<!-- Additional plugins go here -->
+
+<script class="include" type="text/javascript" src="../jqplot/plugins/jqplot.canvasTextRenderer.min.js"></script>
+<script class="include" type="text/javascript" src="../jqplot/plugins/jqplot.canvasAxisLabelRenderer.min.js"></script>
+<script  class="include" type="text/javascript" src="../jqplot/plugins/jqplot.dateAxisRenderer.min.js"></script>
+<script  class="include" type="text/javascript" src="../jqplot/plugins/jqplot.ohlcRenderer.min.js"></script>
+
+<script  class="include" type="text/javascript" src="../jqplot/plugins/jqplot.highlighter.min.js"></script>
+<script type="text/javascript" src="../jqplot/plugins/jqplot.cursor.min.js"></script>
+<!-- End additional plugins -->
+<script type="text/javascript" src="../jqplot/examples/example.min.js"></script>
+</html>

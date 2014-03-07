@@ -1,0 +1,13 @@
+{
+    "name": "mydropbox"
+  , "version": "0.0.1"
+  , "private": true
+  , "dependencies": {
+      "express": "2.5.11"
+    , "stylus": ">= 0.0.1"
+    ,"ejs": "~0.7.1"
+    , "csv": ">=0.0.1"
+    ,"socket.io": "0.8.4"
+    ,"async": ">=0.0.1"
+  }
+}

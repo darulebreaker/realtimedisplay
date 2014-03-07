@@ -1,0 +1,14 @@
+<div class="title">
+    <%- JSON.stringify(d) %>
+
+</div>
+
+
+
+<div id="chart1" style="height:300px; width:500px;"></div>
+<script>
+    var array = [[<%= d%>]];
+    $(document).ready(function(){
+        var plot1 = $.jqplot ('chart1', array);
+    });
+</script>

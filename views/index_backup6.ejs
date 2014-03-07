@@ -1,0 +1,57 @@
+<div class="title">
+
+
+</div>
+
+    <div id="conversation"></div>
+
+</div>
+
+<script>
+    var socket = io.connect('http://localhost');
+    socket.on('connect', function(){
+        // call the server-side function 'adduser' and send one parameter (value of prompt)
+
+    });
+    socket.on('news', function ( data) {
+        $('#conversation').append( data + '<br>');
+    });
+</script>
+
+
+<script>
+    var array = <%- JSON.stringify(d) %>;
+
+    var data = new Array();
+    array.forEach(function(subArray){
+        var tmp= new Array();
+        tmp.push( subArray[0].concat(" ",subArray[1],":00"));
+       // console.log(tmp);
+        for(var i=2; i<6; i++) {
+        tmp.push(parseFloat(subArray[i]));
+        }
+        //console.log(tmp);
+        data.push(tmp);
+    })
+    //console.log(data);
+</script>
+
+
+<div id="chart_div" style="width: 1080px; height: 500px;"></div>
+
+<script type="text/javascript">
+    function drawVisualization() {
+        var d = google.visualization.arrayToDataTable(data, true);
+
+
+        var options= {
+            legend:'none',
+            displayRangeSelector: true,
+            displayZoomButtons: true
+        }
+        var chart = new google.visualization.CandlestickChart(document.getElementById('chart_div'));
+        chart.draw(d, options);
+    }
+
+    google.setOnLoadCallback(drawVisualization);
+</script>
