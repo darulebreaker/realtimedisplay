@@ -2,8 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="8cd49719-3ca9-4954-8f08-b4c19313483f" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/views/index.ejs" afterPath="$PROJECT_DIR$/views/index.ejs" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/data/tsla.xlsx" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app.js" afterPath="$PROJECT_DIR$/app.js" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/views/layout.ejs" afterPath="$PROJECT_DIR$/views/layout.ejs" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/package.json" afterPath="$PROJECT_DIR$/package.json" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="mydropbox.iws" />
@@ -27,10 +29,28 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
+      <file leaf-file-name="app.js" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="14" column="0" selection-start="339" selection-end="339" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="3026">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="package.json" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/package.json">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="13" column="1" selection-start="277" selection-end="277" vertical-scroll-proportion="-8.5" vertical-offset="0" max-vertical-offset="323">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
       <file leaf-file-name="index.ejs" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/views/index.ejs">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="23" column="0" selection-start="546" selection-end="546" vertical-scroll-proportion="0.677643" vertical-offset="0" max-vertical-offset="5814">
+            <state line="144" column="35" selection-start="4554" selection-end="4554" vertical-scroll-proportion="-0.2236842" vertical-offset="2550" max-vertical-offset="5814">
               <folding>
                 <element signature="n#style#0;n#div#0;n#div#1;n#!!top" expanded="true" />
                 <element signature="n#style#0;n#div#1;n#div#1;n#!!top" expanded="true" />
@@ -43,43 +63,25 @@
       <file leaf-file-name="layout.ejs" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/views/layout.ejs">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="10" column="19" selection-start="313" selection-end="313" vertical-scroll-proportion="-6.5384617" vertical-offset="0" max-vertical-offset="1547">
+            <state line="36" column="48" selection-start="1565" selection-end="1565" vertical-scroll-proportion="-3.9230769" vertical-offset="510" max-vertical-offset="1564">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="main2.py" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/utility/main2.py">
+      <file leaf-file-name="tsla2.csv" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/tmp/tsla2.csv">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="112" column="3" selection-start="3223" selection-end="3223" vertical-scroll-proportion="0.0" vertical-offset="1521" max-vertical-offset="2397">
+            <state line="69" column="42" selection-start="2647" selection-end="2647" vertical-scroll-proportion="0.0" vertical-offset="768" max-vertical-offset="1275">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="bootstrap.css" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/public/css/bootstrap.css">
+      <file leaf-file-name="tsla_OHLC.csv" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/tmp/tsla_OHLC.csv">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="98447">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="dashboard.css" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/public/css/dashboard.css">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="34" column="22" selection-start="468" selection-end="468" vertical-scroll-proportion="0.0" vertical-offset="1093" max-vertical-offset="1717">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="bootstrap-theme.min.css" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/public/css/bootstrap-theme.min.css">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="204">
+            <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="6715">
               <folding />
             </state>
           </provider>
@@ -144,24 +146,25 @@
         <option value="$PROJECT_DIR$/tmp/data.csv" />
         <option value="$PROJECT_DIR$/tmp/tsla_OHLC2.csv" />
         <option value="$PROJECT_DIR$/views/layout_backup3.ejs" />
-        <option value="$PROJECT_DIR$/package.json" />
         <option value="$PROJECT_DIR$/fileCheck.js" />
         <option value="$PROJECT_DIR$/app_backup2.js" />
         <option value="$PROJECT_DIR$/views/index_backup7.ejs" />
         <option value="$PROJECT_DIR$/tmp/test.csv" />
-        <option value="$PROJECT_DIR$/app.js" />
         <option value="$PROJECT_DIR$/tmp/tsla2.csv" />
         <option value="$PROJECT_DIR$/public/css/dashboard.css" />
         <option value="$PROJECT_DIR$/tmp/tsla_OHLC3.csv" />
-        <option value="$PROJECT_DIR$/views/layout.ejs" />
         <option value="$PROJECT_DIR$/views/index.ejs" />
+        <option value="$PROJECT_DIR$/package.json" />
+        <option value="$PROJECT_DIR$/app.js" />
+        <option value="$PROJECT_DIR$/views/layout.ejs" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="331" />
+    <option name="x" value="174" />
+    <option name="y" value="1072" />
     <option name="width" value="1382" />
-    <option name="height" value="1036" />
+    <option name="height" value="784" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <OptionsSetting value="true" id="Add" />
@@ -296,6 +299,24 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
+              <option name="myItemId" value="data" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="mydropbox" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="mydropbox" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="public" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
               <option name="myItemId" value="css" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
@@ -314,18 +335,18 @@
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\darulebreaker\WebstormProjects\mydropbox\tmp" />
       <recent name="C:\Users\darulebreaker\WebstormProjects\mydropbox\views" />
       <recent name="C:\Users\darulebreaker\WebstormProjects\mydropbox" />
       <recent name="C:\Users\darulebreaker\WebstormProjects\mydropbox\public" />
       <recent name="C:\Users\darulebreaker\WebstormProjects\mydropbox\jqplot" />
-      <recent name="C:\Users\darulebreaker\WebstormProjects\mydropbox\tmp" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\darulebreaker\WebstormProjects\mydropbox\public\data" />
       <recent name="C:\Users\darulebreaker\WebstormProjects\mydropbox\utility" />
       <recent name="C:\Users\darulebreaker\WebstormProjects\mydropbox\public" />
       <recent name="C:\Users\darulebreaker\WebstormProjects\mydropbox\tmp" />
       <recent name="C:\Users\darulebreaker\WebstormProjects\mydropbox\jqplot" />
-      <recent name="C:\Users\darulebreaker\WebstormProjects\mydropbox" />
     </key>
   </component>
   <component name="RunManager" selected="Node.js.Unnamed">
@@ -418,28 +439,32 @@
       <created>1394326678918</created>
       <updated>1394326678918</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="added name/description to charts, improve left column. changed size of charts so they fit better">
+      <created>1394424470676</created>
+      <updated>1394424470676</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="331" y="0" width="1382" height="1036" extended-state="0" />
+    <frame x="174" y="1072" width="1382" height="784" extended-state="6" />
     <editor active="false" />
     <layout>
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.30923077" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.20644216" sideWeight="0.7206209" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.20644216" sideWeight="0.8523077" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.5953846" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.34" sideWeight="0.59077597" order="7" side_tool="true" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.27937916" sideWeight="0.409224" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.14769231" sideWeight="0.409224" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
@@ -456,7 +481,8 @@
     <MESSAGE value="deleting unused jqplot folder&#10;" />
     <MESSAGE value="condensing chart options" />
     <MESSAGE value="more clean up and adding bootstrap" />
-    <option name="LAST_COMMIT_MESSAGE" value="more clean up and adding bootstrap" />
+    <MESSAGE value="added name/description to charts, improve left column. changed size of charts so they fit better" />
+    <option name="LAST_COMMIT_MESSAGE" value="added name/description to charts, improve left column. changed size of charts so they fit better" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -464,27 +490,6 @@
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/views/index.jade">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="415">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/tmp/tsla_OHLC3.csv">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="533" column="45" selection-start="30512" selection-end="30512" vertical-scroll-proportion="0.0" vertical-offset="8743" max-vertical-offset="9367">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/tmp/tsla2.csv">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="50" column="34" selection-start="1927" selection-end="1927" vertical-scroll-proportion="0.0" vertical-offset="643" max-vertical-offset="1275">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/tmp/tsla.csv">
       <provider selected="true" editor-type-id="text-editor">
         <state line="4259" column="33" selection-start="162955" selection-end="163113" vertical-scroll-proportion="0.0" vertical-offset="71898" max-vertical-offset="72522">
@@ -495,20 +500,6 @@
     <entry file="file://$PROJECT_DIR$/fileCheck.js">
       <provider selected="true" editor-type-id="text-editor">
         <state line="15" column="3" selection-start="408" selection-end="408" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="357">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="96" column="28" selection-start="2528" selection-end="2528" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="2958">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/utility/main2.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="112" column="3" selection-start="3223" selection-end="3223" vertical-scroll-proportion="0.0" vertical-offset="1521" max-vertical-offset="2397">
           <folding />
         </state>
       </provider>
@@ -562,16 +553,51 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/utility/main2.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="112" column="3" selection-start="3223" selection-end="3223" vertical-scroll-proportion="1.091168" vertical-offset="1521" max-vertical-offset="2397">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/tmp/tsla2.csv">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="69" column="42" selection-start="2647" selection-end="2647" vertical-scroll-proportion="0.0" vertical-offset="768" max-vertical-offset="1275">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/tmp/tsla_OHLC.csv">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="6715">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/package.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="13" column="1" selection-start="277" selection-end="277" vertical-scroll-proportion="-8.5" vertical-offset="0" max-vertical-offset="323">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="14" column="0" selection-start="339" selection-end="339" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="3026">
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/views/layout.ejs">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="10" column="19" selection-start="313" selection-end="313" vertical-scroll-proportion="-6.5384617" vertical-offset="0" max-vertical-offset="1547">
+        <state line="36" column="48" selection-start="1565" selection-end="1565" vertical-scroll-proportion="-3.9230769" vertical-offset="510" max-vertical-offset="1564">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/views/index.ejs">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="23" column="0" selection-start="546" selection-end="546" vertical-scroll-proportion="0.677643" vertical-offset="0" max-vertical-offset="5814">
+        <state line="144" column="35" selection-start="4554" selection-end="4554" vertical-scroll-proportion="-0.2236842" vertical-offset="2550" max-vertical-offset="5814">
           <folding>
             <element signature="n#style#0;n#div#0;n#div#1;n#!!top" expanded="true" />
             <element signature="n#style#0;n#div#1;n#div#1;n#!!top" expanded="true" />

@@ -10,7 +10,10 @@ var app = require('express').createServer()
     fs = require('fs'),
     io = require('socket.io').listen(app)
     async = require('async'),
-    events= require('events');
+    events= require('events'),
+    moment= require('moment-timezone');
+
+    moment().tz("America/New_York").format();
 
 var eventEmitter = new events.EventEmitter();
 
@@ -102,23 +105,24 @@ var extractEquityAndEvents =function (data){
         var tmpTime = parseInt(subArray[1]);
 
 
-        var date = new Date((tmpDate / 10000) + 2000, (tmpDate / 100) % 100, tmpDate % 100, tmpTime / 100, tmpTime % 100, 0, 0);
+        var date = new Date((tmpDate / 10000) + 2000, (tmpDate / 100) % 100-1, tmpDate % 100, tmpTime / 100, tmpTime % 100, 0, 0);
+        var formattedDate;
         //console.log(date.getMinutes()+" "+date.getMinutes()%5)
         for(var i=1; !(date.getMinutes()%5 ==0) && i<5 ; i++){
             //console.log(date.getMinutes());
-            date = new Date(date.getTime()+60000);
-            //console.log(date);
+            date =new Date(date.getTime()+60000);
+
         }
 
-
+        formattedDate = moment.tz(new Date(date.getTime()), "America/New_York").format();
         if (subArray[3].trim() === "NetProfit") {
             //console.log(date + subArray[4]);
-            equity.push([date, subArray[4]])
-            event.push([date, subArray[2].trim(), subArray[4]])
+            equity.push([formattedDate, subArray[4]])
+            event.push([formattedDate, subArray[2].trim(), subArray[4]])
         }
 
         if (subArray[2].trim() === "Buy at" || subArray[2].trim() === "Bought at") {
-            event.push([date, subArray[2].trim(), subArray[3]])
+            event.push([formattedDate, subArray[2].trim(), subArray[3]])
         }
 
 
