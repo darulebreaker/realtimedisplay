@@ -95,13 +95,15 @@
 
 </script>
 <script>
-    var socket = io.connect('http://localhost');
+    var socket = io.connect('http://localhost:80');
     socket.on('connect', function(){
         // call the server-side function 'adduser' and send one parameter (value of prompt)
-
+        $('#conversation').append("connection established for real time update")
     });
     socket.on('eventUpdate', function( data ) {
         //console.log(data);
+
+
         var equity = extractEquity(data.equity);
         var data3 =  google.visualization.arrayToDataTable(equity, true);
 
@@ -109,6 +111,8 @@
         chart3.draw(data3, options3);
 
         var events = extractEvents(data.events);
+        $('#conversation').empty();
+        $('#conversation').append("most recent event: " +events[events.length-1]);
 
         var data1 =  google.visualization.arrayToDataTable(events, true);
 
@@ -139,9 +143,10 @@
 
     });
     socket.on('news', function ( data) {
-        $('#conversation').append( data + '<br>');
+        //$('#conversation').append( data + '<br>');
         //console.log(data);
         if(data instanceof Array){
+
             var mydata=new Array();
 
             data.forEach(function(subArray){

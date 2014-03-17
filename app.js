@@ -21,7 +21,7 @@ var eventEmitter = new events.EventEmitter();
 
 // Configuration
 io.sockets.on('connection', function (socket) {
-    socket.emit('news',  'Hi' );
+    socket.emit('news',  'Connection established for real time updates' );
     var v = function(data){
         console.log(data);
         socket.emit('news',data)
@@ -98,7 +98,7 @@ app.configure('production', function(){
 var extractEquityAndEvents =function (data){
     var equity = new Array(),
         event = new Array();
-
+    data= data.splice(-50,50)
     data.forEach(function (subArray) {
         //console.log(subArray);
         var tmpDate = parseInt(subArray[0]) - 1000000; //tradestation adjustment
