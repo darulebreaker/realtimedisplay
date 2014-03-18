@@ -100,6 +100,9 @@ var extractEquityAndEvents =function (data){
         event = new Array();
     data= data.splice(-50,50)
     data.forEach(function (subArray) {
+        if(typeof(subArray) ==="undefined" )
+            return false;
+
         //console.log(subArray);
         var tmpDate = parseInt(subArray[0]) - 1000000; //tradestation adjustment
         var tmpTime = parseInt(subArray[1]);
