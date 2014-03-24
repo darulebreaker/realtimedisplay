@@ -14,15 +14,14 @@
 
 <div id="chart_div3"></div>
 <div id="chart_div4"></div>
-<H2>Price chart(line) with trades annotated</H2>
-<div id="visualization" style="width: 800px; height: 400px;"></div>
+
 
 </div>
 
-
+<script src="/js/dataProcessing.js"></script>
 <script src="/js/charting.js"></script>
 <script src="/js/realTimeCommunication.js"></script>
-<script src="/js/dataProcessing.js"></script>
+
 <script>
     var results = <%- JSON.stringify(r) %>;
     var array=results.ohlc.data;

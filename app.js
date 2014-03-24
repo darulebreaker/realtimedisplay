@@ -52,7 +52,6 @@ io.sockets.on('connection', function (socket) {
 });
 
 
-
 var watch=function(fileName, eventName){
     console.log(eventName);
     fs.watchFile(fileName, function(curr,prev) {
@@ -72,7 +71,7 @@ var watch=function(fileName, eventName){
 
 watch('./tmp/test.csv','filechange');
 watch('./tmp/tsla2.csv','event_filechange');
-watch('./tmp/tsla_OHLC3.csv','ohlc_filechange');
+watch('./tmp/ohlc.csv','ohlc_filechange');
 
 app.configure(function(){
   app.set('views', __dirname + '/views');
@@ -118,13 +117,13 @@ var extractEquityAndEvents =function (data){
         }
 
         formattedDate = moment.tz(new Date(date.getTime()), "America/New_York").format();
-        if (subArray[3].trim() === "NetProfit") {
+        if ( typeof(subArray[3])!= "undefined" && subArray[3].trim() === "NetProfit") {
             //console.log(date + subArray[4]);
             equity.push([formattedDate, subArray[4]])
             event.push([formattedDate, subArray[2].trim(), subArray[4]])
         }
 
-        if (subArray[2].trim() === "Buy at" || subArray[2].trim() === "Bought at") {
+        if (typeof(subArray[2])!= "undefined" && subArray[2].trim() === "Buy at" || subArray[2].trim() === "Bought at") {
             event.push([formattedDate, subArray[2].trim(), subArray[3]])
         }
 
@@ -141,10 +140,10 @@ app.get('/', function(req, res) {
         async.series({
             ohlc: function(callback){
                 csv()
-                    .from('./tmp/tsla_OHLC3.csv')
+                    .from('./tmp/ohlc.csv')
                     .to.array( function(data){
                         callback(null,
-                            {'data': data}
+                            {'data': data.splice(-200,200)}
                         )
                     });
             },

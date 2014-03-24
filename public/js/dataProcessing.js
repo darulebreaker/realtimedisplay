@@ -1,6 +1,7 @@
 /**
  * Created by darulebreaker on 3/17/14.
  */
+
 var extractOHLC= function(array)
 {
     var data = new Array();
@@ -10,8 +11,8 @@ var extractOHLC= function(array)
         d=subArray[0].split("/");
         t=subArray[1].split(":");
         //console.log(d);
-        //console.log(t);
-        var date= new Date(d[2],d[0],d[1],t[0],t[1],0,0);
+        //console.log(typeof subArray[2]);
+        var date= new Date(d[2],d[0]-1,d[1],t[0],t[1],t[2],0);
         //console.log(date);
         tmp.push(date);
 
@@ -26,8 +27,12 @@ var extractOHLC= function(array)
         data.push(tmp);
         datesAndEvents[date.getTime()]=[date, parseFloat(subArray[5]), null, null];
     })
+
     return data;
 }
+
+
+
 
 var extractEvents= function(e)
 {
@@ -40,7 +45,7 @@ var extractEvents= function(e)
             datesAndEvents[new Date(subArray[0]).getTime()][3]=subArray[2];
         }
         else{
-            console.log(subArray[0]+"not found");
+           // console.log(subArray[0]+"not found");
         }
 
         for(var i=0; i<subArray.length; i++){

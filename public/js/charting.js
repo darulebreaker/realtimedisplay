@@ -18,6 +18,7 @@ var options4 = {'title':'Line chart',
     'width':900,
     'height':300};
 
+
 function drawVisualization() {
 
     // Instantiate and draw our chart, passing in some options.
@@ -30,7 +31,9 @@ function drawVisualization() {
 
     var dashboard = new google.visualization.Dashboard(
         document.getElementById('dashboard'));
-
+    var startDate = data[data.length-30][0];
+    var endDate = data[data.length-1][0];
+    console.log("Start: "+startDate+"  end: "+endDate);
     var control = new google.visualization.ControlWrapper({
         'controlType': 'ChartRangeFilter',
         'containerId': 'control',
@@ -53,7 +56,8 @@ function drawVisualization() {
             }
         },
         // Initial range: 2012-02-09 to 2012-03-20.
-        'state': {'range': {'start': new Date(2014, 2, 10), 'end': new Date(2014,2, 11)}}
+
+        'state': {'range': {'start': startDate, 'end': endDate}}
     });
 
     var chart = new google.visualization.ChartWrapper({
@@ -79,6 +83,8 @@ function drawVisualization() {
         // Convert the first column from 'date' to 'string'.
 
     });
+
+   // console.log(data);
 
     var d = google.visualization.arrayToDataTable(data, true);
 
