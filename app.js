@@ -45,6 +45,14 @@ io.sockets.on('connection', function (socket) {
         socket.emit('ohlcUpdate',data);
     });
 
+    eventEmitter.on('trend_filechange',function(data){
+        var lastLine = data.slice(-1)[0];
+        var trend= "down";
+        if(lastLine>0) trend="up";
+        socket.emit('trendUpdate', {'trend':trend});
+
+    });
+
 
     socket.on('my other event', function (data) {
         console.log(data);
@@ -72,6 +80,7 @@ var watch=function(fileName, eventName){
 watch('./tmp/test.csv','filechange');
 watch('./tmp/tsla2.csv','event_filechange');
 watch('./tmp/ohlc.csv','ohlc_filechange');
+watch('./tmp/trend.csv','trend_filechange');
 
 app.configure(function(){
   app.set('views', __dirname + '/views');
@@ -92,6 +101,9 @@ app.configure('development', function(){
 app.configure('production', function(){
   app.use(express.errorHandler());
 });
+
+
+
 
 // Routes
 var extractEquityAndEvents =function (data){
@@ -123,7 +135,7 @@ var extractEquityAndEvents =function (data){
             event.push([formattedDate, subArray[2].trim(), subArray[4]])
         }
 
-        if (typeof(subArray[2])!= "undefined" && subArray[2].trim() === "Buy at" || subArray[2].trim() === "Bought at") {
+        if (typeof(subArray[2])!= "undefined" && ( subArray[2].trim() === "Buy at" || subArray[2].trim() === "Bought at")) {
             event.push([formattedDate, subArray[2].trim(), subArray[3]])
         }
 
@@ -158,6 +170,18 @@ app.get('/', function(req, res) {
                         callback(null, r);
 
                     });
+            },
+            trend: function (callback){
+                 csv().from('./tmp/trend.csv')
+                     .to.array(function (data) {
+                         var lastLine = data.slice(-1)[0];
+                         var trend= "down";
+                         if(lastLine>0) trend="up";
+                         callback(null, trend);
+                     });
+
+
+
         }
 
     },

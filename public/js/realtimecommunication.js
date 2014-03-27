@@ -2,7 +2,7 @@
  * Created by darulebreaker on 3/17/14.
  */
 
-var socket = io.connect('http://www.ogretec.com');
+var socket = io.connect('http://ogretec.com');
 socket.on('connect', function(){
     // call the server-side function 'adduser' and send one parameter (value of prompt)
     $('#conversation').append("connection established for real time update")
@@ -49,6 +49,13 @@ socket.on('ohlcUpdate', function(data){
 
 
     });
+
+socket.on('trendUpdate', function(data){
+    $('#trend').empty();
+    $('#trend').append("Current Trend: " +data.trend);
+
+});
+
 socket.on('news', function ( data) {
     //$('#conversation').append( data + '<br>');
     //console.log(data);
